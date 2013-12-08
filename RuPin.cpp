@@ -1,3 +1,7 @@
+#include <RF24.h>
+#include <RF24Network.h>
+#include "RuPin.h"
+
 RuPin::RuPin()
 {
 	// Setup for GPIO P1-22(GPIO 25) CSN - P1-24(GPIO 8) CE with SPI Speed @ 8Mhz
