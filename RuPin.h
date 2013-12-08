@@ -7,8 +7,8 @@
 #include <string.h>
 #include <sys/time.h>
 #include <stddef.h>
-#include "../include/RF24.h"
-#include "../include/RF24Network.h"
+#include <RF24.h>
+#include <RF24Network.h>
 
 class RF24;
 
